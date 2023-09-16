@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(189,192,67,0.4515056022408963) 15%, rgba(237,175,239,0.6811974789915967) 40%, rgba(253,187,45,1) 100%);
+  }
+  #container {
+    margin-top: 40px;
+    text-align: center;
+  }
+  #movieSearch {
+    padding: 15px 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 900;
+    background: transparent;
+  }
+  #search {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid antiquewhite;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: tomato;
+    color: aliceblue;
+  }
+  #root {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  #rootDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 10px;
+  }
+  h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  #YearDiv {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .card{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(240,149,149,0.5439425770308124) 50%, rgba(252,176,69,1) 100%);
+    padding-top: 1.8rem;
+    border-radius: 15px;
+    transition: .5s;
+  }
+  .card:hover{
+    /* translate: .5rem; */
+    transform: rotateY(180deg);
+  }
